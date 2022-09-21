@@ -49,7 +49,7 @@ class EasySplashScreen extends StatefulWidget {
   final Future<Object>? futureNavigator;
 
   EasySplashScreen({
-    this.loaderColor = Colors.black,
+    this.loaderColor = Colors.white,
     this.futureNavigator,
     this.navigator,
     this.durationInSeconds = 3,
