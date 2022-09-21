@@ -19,7 +19,7 @@ class EasySplashScreen extends StatefulWidget {
   final double logoWidth;
 
   /// Main image mainly used for logos and like that
-  final Image logo;
+  final Image? logo;
 
   /// Loader color
   final Color loaderColor;
@@ -53,7 +53,7 @@ class EasySplashScreen extends StatefulWidget {
     this.futureNavigator,
     this.navigator,
     this.durationInSeconds = 3,
-    required this.logo,
+    this.logo,
     this.logoWidth = 50,
     this.title,
     this.backgroundColor = Colors.white,
